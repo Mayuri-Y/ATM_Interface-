@@ -1,0 +1,17 @@
+package AtmInterface;
+
+public class AtmMachine {
+
+	public static void main(String[] args) {
+		ATM A =new ATM();
+		A.checkpin();
+		
+
+	}
+
+}
+package AtmInterface;
+
+public class Data {
+  int balance;
+}
